@@ -1,0 +1,13 @@
+{
+  "source_id": "ticket-DEMO-010",
+  "ticket_id": "DEMO-010",
+  "title": "Cannot ping outside world",
+  "customer_issue": "My VM cannot reach 8.8.8.8. Network seems broken.",
+  "agent_resolution": "The instance was attached to a private subnet but the router lacked an external gateway. Configured the gateway on the router via the networking tab. Outbound connectivity restored.",
+  "service": "Networking",
+  "category": "Networking",
+  "severity": "Medium",
+  "status": "Resolved",
+  "language": "en",
+  "source_type": "support_ticket"
+}

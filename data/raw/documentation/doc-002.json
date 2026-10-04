@@ -1,0 +1,20 @@
+{
+  "source_id": "doc-002",
+  "title": "Managing Block Storage Volumes",
+  "service": "Storage",
+  "description": "Instructions for creating, attaching, and formatting storage volumes.",
+  "prerequisites": [
+    "An active Virtual Machine"
+  ],
+  "steps": [
+    "Go to the 'Storage' > 'Volumes' section in the Console.",
+    "Click 'Create Volume' and specify a size in GB.",
+    "Select the new volume and click 'Manage Attachments'.",
+    "Select your active Virtual Machine to attach the volume.",
+    "Log into your VM to format and mount the newly attached device."
+  ],
+  "content": "## Overview\nExpand your instance's storage capacity by adding volumes.\n\n## Prerequisites\n- An active Virtual Machine\n\n## Procedure\n1. Go to the 'Storage' > 'Volumes' section in the Console.\n2. Click 'Create Volume' and specify a size in GB.\n3. Select the new volume and click 'Manage Attachments'.\n4. Select your active Virtual Machine to attach the volume.\n5. Log into your VM to format and mount the newly attached device.\n\n## Troubleshooting\nIf the volume does not appear in your OS, rescan the SCSI bus or reboot the instance.",
+  "category": "Storage",
+  "language": "en",
+  "source_type": "documentation"
+}

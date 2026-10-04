@@ -1,0 +1,13 @@
+{
+  "source_id": "faq-007",
+  "question": "What currencies are supported for payment?",
+  "answer": "Felcloud natively supports local billing in Tunisian Dinars (TND).",
+  "category": "Billing",
+  "tags": [
+    "currency",
+    "tnd",
+    "payment"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

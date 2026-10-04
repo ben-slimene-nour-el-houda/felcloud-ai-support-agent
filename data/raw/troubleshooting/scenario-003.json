@@ -1,0 +1,19 @@
+{
+  "source_id": "scenario-003",
+  "title": "Instance stuck in 'Error' state during launch",
+  "problem": "Instance creation fails and status transitions to ERROR.",
+  "symptoms": [
+    "Status is ERROR in dashboard",
+    "Cannot interact with instance"
+  ],
+  "cause": "Insufficient hypervisor capacity or quota limit reached for the specific illustrative flavor size requested.",
+  "solution": [
+    "Delete the failed instance.",
+    "Check quota limits in the overview.",
+    "Try launching with a different flavor or contact support to request a quota increase."
+  ],
+  "service": "Compute",
+  "category": "Compute",
+  "language": "en",
+  "source_type": "troubleshooting"
+}

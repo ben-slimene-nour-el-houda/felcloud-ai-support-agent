@@ -1,0 +1,34 @@
+[
+  {
+    "id": "q1",
+    "query": "Comment réinitialiser le mot de passe de mon compte ?",
+    "expected_intent": "support",
+    "reference_answer_keywords": ["mot de passe", "réinitialiser", "lien"],
+    "language": "fr",
+    "expected_source_id": "DOC-PW-RESET"
+  },
+  {
+    "id": "q2",
+    "query": "I am very angry, this service is terrible! Give me a human manager now!",
+    "expected_intent": "escalation",
+    "reference_answer_keywords": ["ticket", "human", "agent", "escalation"],
+    "language": "en",
+    "expected_source_id": "DOC-ESCALATION-POLICY"
+  },
+  {
+    "id": "q3",
+    "query": "Hello, thank you for your help yesterday.",
+    "expected_intent": "general_chat",
+    "reference_answer_keywords": ["welcome", "pleasure", "help"],
+    "language": "en",
+    "expected_source_id": "DOC-CHAT-GREETING"
+  },
+  {
+    "id": "q4",
+    "query": "Kifech na3mel bech nsob l'application mte3kom fel telifoun?",
+    "expected_intent": "support",
+    "reference_answer_keywords": ["application", "télécharger", "installer", "mobile"],
+    "language": "darija",
+    "expected_source_id": "DOC-APP-INSTALL"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "source_id": "faq-002",
+  "question": "How does billing work on Felcloud?",
+  "answer": "Felcloud operates on a prepaid, pay-as-you-go model. Resources are billed per second, ensuring you only pay for what you use. You can top up your account balance using Tunisian Dinars (TND).",
+  "category": "Billing",
+  "tags": [
+    "billing",
+    "prepaid",
+    "tnd"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

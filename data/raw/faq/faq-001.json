@@ -1,0 +1,12 @@
+{
+  "source_id": "faq-001",
+  "question": "What is Felcloud?",
+  "answer": "Felcloud is a sovereign cloud computing platform based in Tunisia that provides prepaid, pay-as-you-go infrastructure services. It is built on OpenStack and utilizes the Skyline dashboard for a modern management experience.",
+  "category": "Account",
+  "tags": [
+    "about",
+    "platform"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

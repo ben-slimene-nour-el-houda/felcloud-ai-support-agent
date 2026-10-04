@@ -1,0 +1,13 @@
+{
+  "source_id": "faq-013",
+  "question": "What is the Skyline Dashboard?",
+  "answer": "Skyline is the modern, web-based OpenStack interface adopted by Felcloud. It provides an intuitive experience for managing your compute, storage, and networking resources.",
+  "category": "Console & Interface",
+  "tags": [
+    "skyline",
+    "dashboard",
+    "openstack"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

@@ -1,0 +1,13 @@
+{
+  "source_id": "ticket-DEMO-006",
+  "ticket_id": "DEMO-006",
+  "title": "How to change password in Skyline",
+  "customer_issue": "I want to update my dashboard login password for security.",
+  "agent_resolution": "Provided steps to navigate to User Settings in the top right corner of the console to change the password.",
+  "service": "Console & Interface",
+  "category": "Account",
+  "severity": "Low",
+  "status": "Resolved",
+  "language": "en",
+  "source_type": "support_ticket"
+}

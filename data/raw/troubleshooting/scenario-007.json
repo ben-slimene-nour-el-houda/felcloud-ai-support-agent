@@ -1,0 +1,19 @@
+{
+  "source_id": "scenario-007",
+  "title": "Lost SSH Key",
+  "problem": "User lost the private SSH key associated with their VPS.",
+  "symptoms": [
+    "Permission denied (publickey) during SSH attempt"
+  ],
+  "cause": "Private key file deleted or misplaced locally.",
+  "solution": [
+    "Use the Skyline Console to detach the root volume.",
+    "Attach it to a temporary rescue instance.",
+    "Mount the volume, modify `/home/ubuntu/.ssh/authorized_keys` with a new public key.",
+    "Detach and reattach to the original instance."
+  ],
+  "service": "Compute",
+  "category": "Security",
+  "language": "en",
+  "source_type": "troubleshooting"
+}

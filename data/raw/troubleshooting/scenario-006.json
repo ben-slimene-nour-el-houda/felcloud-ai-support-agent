@@ -1,0 +1,19 @@
+{
+  "source_id": "scenario-006",
+  "title": "Balance depleted unexpectedly",
+  "problem": "Prepaid balance dropped faster than expected.",
+  "symptoms": [
+    "Low balance notification",
+    "Resources suspended quickly"
+  ],
+  "cause": "Orphaned resources (e.g., unattached floating IPs, unused volumes) are still being billed per second.",
+  "solution": [
+    "Navigate to Billing dashboard to review resource charges.",
+    "Identify and delete unused floating IPs and volumes.",
+    "Top up balance in TND to restore services."
+  ],
+  "service": "Billing",
+  "category": "Billing",
+  "language": "en",
+  "source_type": "troubleshooting"
+}

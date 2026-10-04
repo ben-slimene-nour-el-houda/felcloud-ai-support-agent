@@ -1,0 +1,12 @@
+{
+  "source_id": "faq-011",
+  "question": "Can I add more storage to an existing Virtual Machine?",
+  "answer": "Yes, you can create additional Storage Volumes and attach them to your running instances at any time via the Console.",
+  "category": "Storage",
+  "tags": [
+    "volume",
+    "expansion"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

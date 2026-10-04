@@ -1,0 +1,13 @@
+{
+  "source_id": "faq-006",
+  "question": "How do I create a Virtual Machine?",
+  "answer": "You can create a Virtual Machine by logging into the Felcloud Console (powered by Skyline), navigating to the Compute section, and launching a new instance. You will need to select an image (e.g., Ubuntu 24.04), and a flavor (for example, an illustrative flavor such as 'fc.standard.small').",
+  "category": "Compute",
+  "tags": [
+    "vps",
+    "creation",
+    "console"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

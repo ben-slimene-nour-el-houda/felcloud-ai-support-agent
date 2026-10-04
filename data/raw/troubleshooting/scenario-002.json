@@ -1,0 +1,20 @@
+{
+  "source_id": "scenario-002",
+  "title": "Volume is attached but not visible in OS",
+  "problem": "A newly created storage volume is attached in the Console but doesn't show up in `df -h`.",
+  "symptoms": [
+    "df -h does not list the new drive",
+    "Dashboard says 'Attached'"
+  ],
+  "cause": "The raw block device needs to be partitioned, formatted, and mounted by the operating system.",
+  "solution": [
+    "Run `lsblk` to identify the new block device (e.g., /dev/vdb).",
+    "Use `mkfs.ext4 /dev/vdb` to format it.",
+    "Mount it to a directory like `/mnt/data`.",
+    "Add an entry to `/etc/fstab` for persistence."
+  ],
+  "service": "Storage",
+  "category": "Storage",
+  "language": "en",
+  "source_type": "troubleshooting"
+}

@@ -1,0 +1,19 @@
+{
+  "source_id": "scenario-001",
+  "title": "Virtual machine unreachable via SSH",
+  "problem": "Customer cannot connect to their newly created Ubuntu VPS using SSH.",
+  "symptoms": [
+    "Connection timed out",
+    "Ping fails"
+  ],
+  "cause": "Security Group attached to the instance does not have a rule allowing ingress traffic on TCP port 22.",
+  "solution": [
+    "Log into Skyline dashboard.",
+    "Navigate to Network > Security Groups.",
+    "Add an Ingress rule for TCP Port 22 from CIDR 0.0.0.0/0 (or specific IP)."
+  ],
+  "service": "Compute",
+  "category": "Networking",
+  "language": "en",
+  "source_type": "troubleshooting"
+}

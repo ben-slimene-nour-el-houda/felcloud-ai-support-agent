@@ -1,0 +1,13 @@
+{
+  "source_id": "ticket-DEMO-003",
+  "ticket_id": "DEMO-003",
+  "title": "Instances suspended suddenly",
+  "customer_issue": "All my web servers just went down. The dashboard says suspended.",
+  "agent_resolution": "Investigated billing history. The user's prepaid TND balance reached zero due to an unassociated floating IP draining the last few credits. User topped up balance, and instances were resumed.",
+  "service": "Billing",
+  "category": "Billing",
+  "severity": "Critical",
+  "status": "Resolved",
+  "language": "en",
+  "source_type": "support_ticket"
+}

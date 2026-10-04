@@ -1,0 +1,13 @@
+{
+  "source_id": "ticket-DEMO-009",
+  "ticket_id": "DEMO-009",
+  "title": "Deleted volume by mistake",
+  "customer_issue": "I accidentally deleted a data volume. Can you restore it?",
+  "agent_resolution": "Explained that block storage deletions are permanent unless a snapshot was manually taken beforehand. No snapshot existed. Closed ticket as irreversible.",
+  "service": "Storage",
+  "category": "Storage",
+  "severity": "Critical",
+  "status": "Resolved",
+  "language": "en",
+  "source_type": "support_ticket"
+}

@@ -1,0 +1,23 @@
+{
+  "source_id": "doc-001",
+  "title": "Getting Started with Felcloud Virtual Machines",
+  "service": "Compute",
+  "description": "A guide on how to launch and connect to your first Virtual Machine using the Felcloud Console.",
+  "prerequisites": [
+    "A registered Felcloud account",
+    "A positive prepaid balance in TND",
+    "An SSH key pair"
+  ],
+  "steps": [
+    "Log into the Felcloud Console at https://felcloud.io/console.",
+    "Navigate to the 'Compute' section and click 'Launch Instance'.",
+    "Provide a name and select a flavor size (for example, an illustrative flavor like 'fc.compute.small').",
+    "Select a boot image, such as Ubuntu 24.04.",
+    "Assign your SSH key and attach the instance to your network.",
+    "Click 'Create'. Once the status is Active, use the provided IP to connect via SSH."
+  ],
+  "content": "## Overview\nThis guide helps you create your first Virtual Machine.\n\n## Prerequisites\n- A registered Felcloud account\n- A positive prepaid balance in TND\n- An SSH key pair\n\n## Procedure\n1. Log into the Felcloud Console at https://felcloud.io/console.\n2. Navigate to the 'Compute' section and click 'Launch Instance'.\n3. Provide a name and select a flavor size (for example, an illustrative flavor like 'fc.compute.small').\n4. Select a boot image, such as Ubuntu 24.04.\n5. Assign your SSH key and attach the instance to your network.\n6. Click 'Create'. Once the status is Active, use the provided IP to connect via SSH.\n\n## Troubleshooting\nIf you cannot connect via SSH, verify that your Security Group rules allow ingress traffic on port 22.",
+  "category": "Compute",
+  "language": "en",
+  "source_type": "documentation"
+}

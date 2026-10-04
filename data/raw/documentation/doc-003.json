@@ -1,0 +1,21 @@
+{
+  "source_id": "doc-003",
+  "title": "Configuring External Network Access",
+  "service": "Networking",
+  "description": "How to attach a router and allocate floating IPs for external connectivity.",
+  "prerequisites": [
+    "A private subnet",
+    "A running instance on the private subnet"
+  ],
+  "steps": [
+    "Navigate to 'Networking' > 'Routers'.",
+    "Create a new Router and set the external gateway to the public network.",
+    "Add an interface to the router for your private subnet.",
+    "Go to 'Floating IPs' and allocate a new IP.",
+    "Associate the floating IP with your instance's internal port."
+  ],
+  "content": "## Overview\nEnable inbound and outbound internet access for your private network instances.\n\n## Prerequisites\n- A private subnet\n- A running instance on the private subnet\n\n## Procedure\n1. Navigate to 'Networking' > 'Routers'.\n2. Create a new Router and set the external gateway to the public network.\n3. Add an interface to the router for your private subnet.\n4. Go to 'Floating IPs' and allocate a new IP.\n5. Associate the floating IP with your instance's internal port.\n\n## Troubleshooting\nIf internet connectivity fails, ensure the security group rules allow ICMP and relevant TCP traffic.",
+  "category": "Networking",
+  "language": "en",
+  "source_type": "documentation"
+}

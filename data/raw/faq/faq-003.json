@@ -1,0 +1,13 @@
+{
+  "source_id": "faq-003",
+  "question": "Can I access my Virtual Machine via terminal?",
+  "answer": "Yes, while the Skyline dashboard provides a comprehensive web interface, you can also access your VPS directly via SSH using the keys you provide during instance creation.",
+  "category": "Compute",
+  "tags": [
+    "ssh",
+    "vps",
+    "terminal"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

@@ -1,0 +1,12 @@
+{
+  "source_id": "faq-008",
+  "question": "Are there limits on the number of instances I can create?",
+  "answer": "Your ability to create instances depends on your available prepaid balance. There may also be account-level quotas in place. For example, an illustrative default quota limit might be set for new accounts, which can be raised by contacting support.",
+  "category": "Compute",
+  "tags": [
+    "limits",
+    "quota"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

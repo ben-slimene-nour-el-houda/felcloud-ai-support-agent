@@ -1,0 +1,13 @@
+{
+  "source_id": "ticket-DEMO-005",
+  "ticket_id": "DEMO-005",
+  "title": "Load balancer not distributing traffic",
+  "customer_issue": "My website is only hitting node-01, node-02 gets no traffic.",
+  "agent_resolution": "Checked the Load Balancer configuration. The health monitor for node-02 was failing because the Apache service on node-02 had crashed. User restarted Apache, and the LB resumed distribution.",
+  "service": "Networking",
+  "category": "Networking",
+  "severity": "High",
+  "status": "Resolved",
+  "language": "en",
+  "source_type": "support_ticket"
+}

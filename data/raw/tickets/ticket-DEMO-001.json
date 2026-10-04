@@ -1,0 +1,13 @@
+{
+  "source_id": "ticket-DEMO-001",
+  "ticket_id": "DEMO-001",
+  "title": "Can't connect to my new VPS",
+  "customer_issue": "I just created an Ubuntu VM but my SSH connection times out. My IP is 197.x.x.x.",
+  "agent_resolution": "Guided the customer to the Security Groups section in the Skyline dashboard. They had the default group which blocked port 22. Added the ingress rule and connectivity was restored.",
+  "service": "Compute",
+  "category": "Networking",
+  "severity": "Medium",
+  "status": "Resolved",
+  "language": "en",
+  "source_type": "support_ticket"
+}

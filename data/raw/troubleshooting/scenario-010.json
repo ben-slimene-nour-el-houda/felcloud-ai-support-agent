@@ -1,0 +1,18 @@
+{
+  "source_id": "scenario-010",
+  "title": "Invoice generation query",
+  "problem": "User needs a formal tax invoice for their TND top-up.",
+  "symptoms": [
+    "User asking for PDF receipt for accounting"
+  ],
+  "cause": "User topped up their prepaid balance but needs official documentation.",
+  "solution": [
+    "Direct user to the Billing > Payment History section in the Skyline dashboard.",
+    "Click on the specific transaction to download the PDF invoice.",
+    "If missing, escalate to the billing team."
+  ],
+  "service": "Billing",
+  "category": "Billing",
+  "language": "en",
+  "source_type": "troubleshooting"
+}

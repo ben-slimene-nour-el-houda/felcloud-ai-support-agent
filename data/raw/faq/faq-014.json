@@ -1,0 +1,12 @@
+{
+  "source_id": "faq-014",
+  "question": "Can I host a database on Felcloud?",
+  "answer": "Yes, you can deploy database software on a standard Virtual Machine. Note that Felcloud focuses on Infrastructure as a Service (IaaS), so you will need to manage the database software yourself.",
+  "category": "Compute",
+  "tags": [
+    "database",
+    "hosting"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

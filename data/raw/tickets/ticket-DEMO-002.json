@@ -1,0 +1,13 @@
+{
+  "source_id": "ticket-DEMO-002",
+  "ticket_id": "DEMO-002",
+  "title": "Need more storage on database server",
+  "customer_issue": "My disk is 95% full. How do I add 50GB more?",
+  "agent_resolution": "Instructed the user to create a new 50GB Volume from the Storage menu, attach it to their instance, and provided documentation on how to format and mount it via terminal.",
+  "service": "Storage",
+  "category": "Storage",
+  "severity": "High",
+  "status": "Resolved",
+  "language": "en",
+  "source_type": "support_ticket"
+}

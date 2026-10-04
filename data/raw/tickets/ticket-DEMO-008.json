@@ -1,0 +1,13 @@
+{
+  "source_id": "ticket-DEMO-008",
+  "ticket_id": "DEMO-008",
+  "title": "Where is my invoice?",
+  "customer_issue": "I recharged my account with 100 TND yesterday but didn't get an email receipt.",
+  "agent_resolution": "Explained that invoices are generated within the dashboard. Guided the user to the Billing > Payment History tab where they downloaded the PDF.",
+  "service": "Billing",
+  "category": "Billing",
+  "severity": "Low",
+  "status": "Resolved",
+  "language": "en",
+  "source_type": "support_ticket"
+}

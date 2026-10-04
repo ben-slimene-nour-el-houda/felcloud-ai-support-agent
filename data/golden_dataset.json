@@ -1,0 +1,34 @@
+[
+  {
+    "input": "How do I reset my password?",
+    "expected_intent": "support",
+    "expected_context": ["authentication", "password_reset"],
+    "language": "en"
+  },
+  {
+    "input": "I am so angry! Let me talk to a human right now! Your service is terrible.",
+    "expected_intent": "escalation",
+    "expected_context": [],
+    "language": "en"
+  },
+  {
+    "input": "Bonjour, merci beaucoup pour votre aide.",
+    "expected_intent": "general_chat",
+    "expected_context": [],
+    "language": "fr"
+  },
+  {
+    "input": "System Alert: High CPU usage on database node db-master-01. Load average is 15.2.",
+    "expected_intent": "infra_alert",
+    "expected_severity": "warning",
+    "expected_component": "database",
+    "language": "en"
+  },
+  {
+    "input": "CRITICAL ALERT: API Gateway Gateway-03 is unreachable. Ping timeout. Active connections dropping.",
+    "expected_intent": "infra_alert",
+    "expected_severity": "critical",
+    "expected_component": "api",
+    "language": "en"
+  }
+]

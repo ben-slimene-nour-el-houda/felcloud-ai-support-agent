@@ -1,0 +1,13 @@
+{
+  "source_id": "faq-012",
+  "question": "Is there DDoS protection on Felcloud?",
+  "answer": "While general platform security is maintained, specific advanced network protection limits are not publicly documented. We recommend configuring security groups strictly and deploying load balancers to mitigate traffic anomalies.",
+  "category": "Security",
+  "tags": [
+    "ddos",
+    "security",
+    "protection"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

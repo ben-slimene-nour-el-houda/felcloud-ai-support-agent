@@ -1,0 +1,12 @@
+{
+  "source_id": "faq-004",
+  "question": "Does Felcloud support Load Balancers?",
+  "answer": "Yes, Felcloud allows you to dynamically allocate and configure load balancers to distribute traffic across your Virtual Machines.",
+  "category": "Networking",
+  "tags": [
+    "loadbalancer",
+    "traffic"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

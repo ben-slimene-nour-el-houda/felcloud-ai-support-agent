@@ -1,0 +1,12 @@
+{
+  "source_id": "faq-010",
+  "question": "What happens if my prepaid balance reaches zero?",
+  "answer": "If your prepaid balance runs out, your active resources may be suspended until you top up your account. We recommend monitoring your balance through the billing dashboard.",
+  "category": "Billing",
+  "tags": [
+    "balance",
+    "suspension"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

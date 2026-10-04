@@ -1,0 +1,17 @@
+{
+  "source_id": "doc-005",
+  "title": "Security Group Best Practices",
+  "service": "Security",
+  "description": "Securing your instances using OpenStack security groups.",
+  "prerequisites": [],
+  "steps": [
+    "Navigate to 'Network' > 'Security Groups'.",
+    "Edit rules for the default group to restrict ingress traffic.",
+    "Create specific groups for different roles (e.g., 'web-server' for ports 80/443).",
+    "Apply groups directly to instance network interfaces."
+  ],
+  "content": "## Overview\nProtect your cloud infrastructure with firewall rules.\n\n## Prerequisites\nNone\n\n## Procedure\n1. Navigate to 'Network' > 'Security Groups'.\n2. Edit rules for the default group to restrict ingress traffic.\n3. Create specific groups for different roles (e.g., 'web-server' for ports 80/443).\n4. Apply groups directly to instance network interfaces.\n\n## Troubleshooting\nIf an application is unreachable, check that both the security group and internal OS firewall allow the specific port.",
+  "category": "Security",
+  "language": "en",
+  "source_type": "documentation"
+}

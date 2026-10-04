@@ -1,0 +1,19 @@
+{
+  "source_id": "doc-004",
+  "title": "Understanding Prepaid Billing and Invoices",
+  "service": "Billing",
+  "description": "Guide to topping up balance and understanding per-second resource billing.",
+  "prerequisites": [
+    "Felcloud account"
+  ],
+  "steps": [
+    "Access the Billing section of the dashboard.",
+    "Review your current TND balance and estimated burn rate.",
+    "Click 'Top Up' to add funds using supported payment methods.",
+    "View historical usage to see per-second deductions."
+  ],
+  "content": "## Overview\nManage your prepaid funds and review infrastructure costs.\n\n## Prerequisites\n- Felcloud account\n\n## Procedure\n1. Access the Billing section of the dashboard.\n2. Review your current TND balance and estimated burn rate.\n3. Click 'Top Up' to add funds using supported payment methods.\n4. View historical usage to see per-second deductions.\n\n## Troubleshooting\nIf resources are suspended despite having balance, please open a support ticket.",
+  "category": "Billing",
+  "language": "en",
+  "source_type": "documentation"
+}

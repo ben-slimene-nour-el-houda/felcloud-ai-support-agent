@@ -1,0 +1,13 @@
+{
+  "source_id": "ticket-DEMO-007",
+  "ticket_id": "DEMO-007",
+  "title": "VM is slow and unresponsive",
+  "customer_issue": "My server is crawling, SSH takes 10 seconds to connect.",
+  "agent_resolution": "Advised user to check resource utilization. They were running a heavy database query on a small instance. Recommended resizing the instance to a flavor with more RAM (for example, from an illustrative 'fc.micro' to 'fc.small').",
+  "service": "Compute",
+  "category": "Compute",
+  "severity": "Medium",
+  "status": "Resolved",
+  "language": "en",
+  "source_type": "support_ticket"
+}

@@ -1,0 +1,13 @@
+{
+  "source_id": "ticket-DEMO-004",
+  "ticket_id": "DEMO-004",
+  "title": "Quota limit reached",
+  "customer_issue": "I'm trying to launch a third VM using an illustrative flavor like 'fc.standard.medium' but it fails saying quota exceeded.",
+  "agent_resolution": "Verified the user's account is new and under the default resource limit. Since they have a healthy prepaid balance, I increased their vCPU and RAM quotas. User successfully launched the VM.",
+  "service": "Compute",
+  "category": "Account",
+  "severity": "Medium",
+  "status": "Resolved",
+  "language": "en",
+  "source_type": "support_ticket"
+}

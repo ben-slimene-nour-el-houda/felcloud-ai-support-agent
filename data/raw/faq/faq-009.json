@@ -1,0 +1,13 @@
+{
+  "source_id": "faq-009",
+  "question": "How do I configure a router?",
+  "answer": "Routers can be configured through the Networking section of the Felcloud Console. You can create a router, attach it to the external network, and add interfaces for your internal subnets.",
+  "category": "Networking",
+  "tags": [
+    "router",
+    "networking",
+    "subnet"
+  ],
+  "language": "en",
+  "source_type": "faq"
+}

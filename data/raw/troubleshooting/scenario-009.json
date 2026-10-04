@@ -1,0 +1,19 @@
+{
+  "source_id": "scenario-009",
+  "title": "High CPU utilization alerts",
+  "problem": "VPS performance is degraded and console shows 100% CPU usage.",
+  "symptoms": [
+    "Slow application response",
+    "Console lag"
+  ],
+  "cause": "Application loop or insufficient resources for the workload on the current flavor.",
+  "solution": [
+    "Access via SSH or Web Console.",
+    "Run `top` or `htop` to identify the runaway process.",
+    "If workload is legitimate, resize the instance to a larger flavor (for example, from an illustrative 'fc.standard.small' to 'fc.standard.large')."
+  ],
+  "service": "Compute",
+  "category": "Compute",
+  "language": "en",
+  "source_type": "troubleshooting"
+}
