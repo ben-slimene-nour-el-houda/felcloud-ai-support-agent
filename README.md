@@ -82,24 +82,6 @@ flowchart TD
     ZC --> RD
 ```
 
-### LangGraph Agent Decision Sequence
-
-```mermaid
-flowchart TD
-    REQ["Customer Request / Infrastructure Alert"] --> INTENT["Intent Classifier Node"]
-    
-    INTENT -->|Knowledge Query| RAG["Qdrant RAG Retrieval<br/><i>(Hybrid Search + RRF Reranking)</i>"]
-    INTENT -->|Operational Action| TOOL["Execute RBAC Tool<br/><i>(Closure-Bound Role Binding)</i>"]
-    
-    RAG --> GEN["LiteLLM Response Generation<br/><i>(Llama 3.2:3B / Qwen 2.5-Coder:3B)</i>"]
-    TOOL --> GEN
-    
-    GEN --> VAL{"Response Validation"}
-    
-    VAL -->|Validation Passed| RES["Formatted Response to Channel"]
-    VAL -->|Failed / Needs Human| ESC["Idempotent Ticket Escalation<br/><i>(create_ticket Tool)</i>"]
-```
-
 
 ---
 
